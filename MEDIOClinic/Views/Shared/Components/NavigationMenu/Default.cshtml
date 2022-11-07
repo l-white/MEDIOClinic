@@ -1,0 +1,15 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@using MEDIOClinic.Models.Menu;
+@model IEnumerable<MenuItemViewModel>
+<nav>
+    @foreach (MenuItemViewModel menuItem in Model)
+    {
+        @* Iterates through the view model collection and renders HTML links for
+    the menu items *@
+        <a href="@menuItem.MenuItemRelativeUrl" title="@menuItem.MenuItemText">@menuItem.MenuItemText</a>
+    }
+</nav>
