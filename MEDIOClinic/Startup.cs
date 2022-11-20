@@ -57,7 +57,7 @@ namespace BlankSiteCore
 
             services.AddAuthentication();
             // services.AddAuthorization();
-
+            services.AddLocalization();
             services.AddControllersWithViews();
         }
 
@@ -69,6 +69,10 @@ namespace BlankSiteCore
                 app.UseDeveloperExceptionPage();
             }
 
+            // app.UseLocalizedStatusCodePagesWithReExecute("/{0}/error/{1}/");
+
+            app.UseHttpsRedirection();
+
             app.UseStaticFiles();
 
             app.UseKentico();
@@ -79,6 +83,8 @@ namespace BlankSiteCore
 
             app.UseAuthentication();
             // app.UseAuthorization();
+
+            // app.UseRequestCulture();
 
             app.UseEndpoints(endpoints =>
             {
