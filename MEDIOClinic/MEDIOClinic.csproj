@@ -8,7 +8,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="kentico.xperience.aspnetcore.webapp" Version="13.0.83" />
+    <PackageReference Include="Autofac.Extensions.DependencyInjection.AzureFunctions" Version="7.2.0.92" />
+    <PackageReference Include="BuildWebCompiler2022" Version="1.14.8" />
+    <PackageReference Include="kentico.xperience.aspnetcore.webapp" Version="13.0.90" />
     <PackageReference Include="PageBuilderContainers.Kentico" Version="13.0.1" />
   </ItemGroup>
 
