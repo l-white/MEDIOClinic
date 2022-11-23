@@ -18,9 +18,5 @@
     <Folder Include="Models\Generated\" />
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\XperienceAdaptor\XperienceAdaptor.csproj" />
-  </ItemGroup>
-
 </Project>
 
