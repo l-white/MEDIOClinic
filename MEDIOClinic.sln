@@ -4,6 +4,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MEDIOClinic", "MEDIOClinic\MEDIOClinic.csproj", "{EB3D71B8-D63E-478A-8B82-7B989064E3D2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2FB058EC-3EA8-41C6-9BDC-D06487F96793} = {2FB058EC-3EA8-41C6-9BDC-D06487F96793}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XperienceAdaptor", "XperienceAdaptor\XperienceAdaptor.csproj", "{2FB058EC-3EA8-41C6-9BDC-D06487F96793}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +20,10 @@ Global
 		{EB3D71B8-D63E-478A-8B82-7B989064E3D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EB3D71B8-D63E-478A-8B82-7B989064E3D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EB3D71B8-D63E-478A-8B82-7B989064E3D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FB058EC-3EA8-41C6-9BDC-D06487F96793}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FB058EC-3EA8-41C6-9BDC-D06487F96793}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FB058EC-3EA8-41C6-9BDC-D06487F96793}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FB058EC-3EA8-41C6-9BDC-D06487F96793}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
